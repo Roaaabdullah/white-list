@@ -4,11 +4,6 @@
     "type": "drupal-custom-module",
     "homepage": "https://github.com/Roaaabdullah/white-list",
 
-    "dist": {
-        "url": "https://www.smarty.net/files/Smarty-3.1.7.zip",
-        "type": "zip"
-    },
-
     "authors": [
         {
             "name": "Integeration Team",
@@ -17,7 +12,6 @@
     ],
     "require": {
         "drupal/paragraphs": "^1.0",
-        "drupal/user": "",
-        "composer/installers": "^1.2"
+        "drupal/user": ""
     }
 }
