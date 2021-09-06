@@ -1,0 +1,3 @@
+whitelistip-plugin:
+  js:
+    js/whitelist.js: {}
