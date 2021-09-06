@@ -1,17 +1,19 @@
-{
-    "name": "Roaaabdullah/white-list",
-    "description": "An example composer.json file for a custom module.",
-    "type": "drupal-custom-module",
-    "homepage": "https://github.com/Roaaabdullah/white-list",
 
-    "authors": [
-        {
-            "name": "Integeration Team",
-            "email": "admin@tahakom.com"
-        }
-    ],
+
+{
+    "name": "client/client_private_module",
+    "type": "drupal-module",
+    "description": "A very important module to our very important client.",
+    "keywords": ["Drupal"],
+    "homepage": "https://github.com/Roaaabdullah/white-list",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "extra": {
+      "branch-alias": {
+        "8.x-1.x": "1.x-dev"
+      }
+    },
     "require": {
-        "drupal/paragraphs": "^1.0",
-        "drupal/user": ""
+      "drupal/diff": "~1.0"
     }
-}
+  }
