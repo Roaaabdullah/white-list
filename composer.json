@@ -2,7 +2,7 @@
 
 {
     "name": "tahakom/whitelist_module",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
     "description": "A very important module to our site.",
     "keywords": ["Drupal"],
     "homepage": "https://github.com/Roaaabdullah/white-list",
