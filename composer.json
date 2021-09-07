@@ -13,13 +13,6 @@
       "email": "email@tahakom.com"
       }
     ],
-
-    "minimum-stability": "dev",
-    "extra": {
-      "branch-alias": {
-        "8.x-1.x": "1.1-dev"
-      }
-    },
     "require": {
       "composer/installers": "*"
     }
