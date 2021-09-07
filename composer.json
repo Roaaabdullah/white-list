@@ -1,19 +1,24 @@
 
 
 {
-    "name": "client/client_private_module",
+    "name": "tahakom/whitelist_module",
     "type": "drupal-module",
-    "description": "A very important module to our very important client.",
+    "description": "A very important module to our site.",
     "keywords": ["Drupal"],
     "homepage": "https://github.com/Roaaabdullah/white-list",
     "license": "proprietary",
+    "authors": [
+      {
+      "name": "Integeration Team",
+      "email": "email@tahakom.com"
+      }
+    ],
+
     "minimum-stability": "dev",
     "extra": {
       "branch-alias": {
         "8.x-1.x": "1.1-dev"
       }
     },
-    "require": {
-      "drupal/diff": "~1.0"
-    }
+    "require": {  }
   }
